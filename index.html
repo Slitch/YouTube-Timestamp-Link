@@ -41,7 +41,7 @@
     <main>
 
       <div class="input-group mb-3">
-        <label for="input_bruttoloen" class="input-group-text">Løn&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <label for="input_bruttoloen" class="input-group-text">YouTube URL&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
         <input type="text" class="form-control" id="input_bruttoloen" placeholder="Løn" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" />
         <span class="input-group-text">kr</span>
       </div>
@@ -80,14 +80,6 @@
       <div class="mb-5">
         <input type="button" class="btn btn-primary btn-lg px-4" onClick="loen_beregn()" Value="Beregn løn til udbetaling" />
       </div>
-
-      <hr class="col-3 col-md-2 mb-5">
-
-        <div class="col-md-8">
-          <h2>Om Løn beregner</h2>
-          <p>Løn beregner er en simpel formular til at udregne ens månedsløn. <br>Du kan bruge den til at kontrollere om beregningerne på din lønseddel er korrekte.</p>
-          <p>Løn beregner regner kun hele din samlet løn dvs. at den bregner <u>ikke</u> timeløn, arbejdstimer, overabejde, nattearbejde, frokost, godtgørelse, weekendarbejde, bonus og ligne.</p>
-        </div>
 
     </main>
     <footer class="pt-5 my-5 text-muted border-top">
